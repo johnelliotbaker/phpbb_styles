@@ -1,0 +1,155 @@
+/* Additional CSS for Acieeed! style by Ian Bradley ( http://iansvivarium.com ) */
+
+@font-face {
+    font-family: 'cabin';
+    src: url('fonts/cabin-medium-webfont.eot');
+    src: url('fonts/cabin-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cabin-medium-webfont.woff2') format('woff2'),
+         url('fonts/cabin-medium-webfont.woff') format('woff'),
+         url('fonts/cabin-medium-webfont.ttf') format('truetype'),
+         url('fonts/cabin-medium-webfont.svg#cabinmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media (max-width: 700px) {
+	.logo {
+		margin:15px 0;
+		height:100px;
+		width:370px;
+		background:#f8c301 url(images/logo-medium.png) no-repeat;
+		box-shadow: 0 3px 15px 3px rgba(0, 0, 0, 0.2);
+		border:6px solid #000000;
+	}
+}
+
+@media (max-width: 500px) {
+	.headerbar {
+		background:#000000 url(images/bg_pollbar.png);
+	}
+	.logo {
+		margin:10px 0;
+		height:60px;
+		width:220px;
+		background:#f8c301 url(images/logo-small.png) no-repeat;
+		box-shadow: 0 2px 10px 0px rgba(0, 0, 0, 0.2);
+		border:3px solid #000000;
+	}
+}
+
+.navbar-breadcrumbs {
+	margin-top:5px;
+	color:#f8c301;
+	font-size:1.2em;
+	font-family:cabin;
+	text-transform:uppercase;
+}
+
+.navbar-breadcrumbs a {
+	color:#f8c301;
+}
+
+.navbar a {
+	color:#000000;
+}
+
+.navbar .dropdown-contents a {
+	color:#f8c301;
+}
+
+.navbar a:hover, .navbar a:focus {
+	color:#D31141;
+}
+
+.notification_text {
+	color:#ffffff;
+}
+
+.dropdown-contents a.mark_read {
+	color:#000000;
+}
+
+.dropdown-contents a.mark_read:hover {
+	color:#da3434;
+}
+
+.search-box .button {
+	margin-right:1px;
+}
+
+.rules a {
+	color:#000000 !important;
+	border:none;
+	text-decoration:underline;
+}
+
+.rules a:hover {
+	color:#D31141 !important;
+	background:none;
+	text-decoration:underline;
+}
+
+.pagination .button .icon {
+	color:#f8c301;
+}
+
+li.row:last-of-type {
+	border-color:transparent;
+}
+
+.row .pagination li a {
+	background:#f8c301;
+	color:#000000;
+	border:none;
+	font-size:1em;
+}
+
+.row .pagination li a:hover {
+	background:#ffdd33;
+	color:#d31141;
+}
+
+.action-bar.bar-bottom .dropdown-contents a, .jumpbox {
+	font-size:1.5em;
+}
+
+.navbar-footer {
+	border-radius:7px;
+	font-size:1.2em;
+	color:#000000;
+}
+
+.copyright a {
+	text-decoration:underline;
+	color:#f8c301;
+}
+
+/* Official phpBB extension compatibility... */
+
+/* Collapsible categories */
+a.collapse-btn {
+	background-color: #000000 !important;
+	border-color: #000000 !important;
+}
+a.collapse-btn:after,
+a.collapse-btn:before {
+	background: #f8c301 !important;
+	border-color: #f8c301 !important;
+}
+a.collapse-btn:hover,
+a.collapse-btn:hover:after,
+a.collapse-btn:hover:before {
+	background-color: #d31141 !important;
+}
+
+/* Board rules */
+.mini-panel {
+	background-color:#111111 !important;
+}
+.mini-panel h3 {
+	color:#ffffff !important;
+	border-bottom:none;
+}
+.mini-panel ul.menu {
+	border-top:1px solid #cccccc;
+}
