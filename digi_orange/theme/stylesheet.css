@@ -4449,15 +4449,16 @@ hr {
 /* Post body links */
 .postlink {
   border-bottom-color: #a2a3a4;
-  color: #a2a3a4; }
-
-.postlink:visited {
-  border-bottom-color: darkgray;
-  color: darkgray; }
-
-.postlink:hover {
-  background-color: #151515;
   color: #c37324; }
+  /* color: #a2a3a4; } */
+
+/* .postlink:visited { */
+/*   border-bottom-color: darkgray; */
+/*   color: darkgray; } */
+/*  */
+/* .postlink:hover { */
+/*   background-color: #151515; */
+/*   color: #c37324; } */
 
 .signature a, .signature a:hover {
   background-color: transparent; }
@@ -4545,11 +4546,11 @@ hr {
   background-color: #2e2e2f;
   color: #aaa; }
 
-.post:target .content {
-  color: #fff; }
-
-.post:target h3 a {
-  color: #fff; }
+/* .post:target .content { */
+/*   color: #fff; } */
+/*  */
+/* .post:target h3 a { */
+/*   color: #fff; } */
 
 .bg1 {
   background-color: #2e2e2f; }
